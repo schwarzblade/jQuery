@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cwiczenie 5</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.powitanie.js"></script>
+    <script type="text/javascript">
+    $(function(){
+	$('p:first').powitanie().css('color','red').
+	    animate({fontSize: '300%'}, 5000).fadeOut(5000);
+	$('p:last').pozegnanie().css('color','red').
+	    animate({fontSize: '300%'}, 5000).fadeOut(5000)
+    });
+    </script>
+</head>
+<body>
+    <p>lorem</p>
+    <p>ipsum</p>
+    <p>dolorm</p>
+    <p>amet</p>
+</body>
+</html>
