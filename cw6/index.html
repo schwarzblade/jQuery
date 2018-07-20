@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cwiczenie 6</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.trimLeft.js"></script>
+    <script type="text/javascript">
+	$(function(){
+	    var stary = "	\n\n\n a b\nc	\n\n\n d e f	\n\n\n	";
+	    var nowy = $.trimLeft(stary);
+	    $('pre').text("nowy");
+	});
+    </script>
+</head>
+<body>
+<pre></pre>
+</body>
+</html>
